@@ -99,7 +99,6 @@ hr {
 
 .nav-link {
   display: flex;
-  /* justify-content: space-between; */
   justify-content: center;
   align-items: center;
   padding-inline-start: 0;
@@ -108,11 +107,9 @@ hr {
 }
 
 .nav-link li {
-  /* flex: 1; */
   text-align: center;
   white-space: nowrap;
   flex-basis: 150px;
-  /* width: calc(content + 1000px); */
 }
 
 .nav-link li:last-child a {
